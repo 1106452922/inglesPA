@@ -1,4 +1,4 @@
-<img width="76" height="76" alt="profile" src="https://github.com/user-attachments/assets/803dc357-9903-4558-8d5b-6d183fef5684" />
+
 <img width="800" height="600" alt="project-3" src="https://github.com/user-attachments/assets/50e68c65-5b74-442d-84f7-ffb1a04afec6" />
 <img width="800" height="600" alt="project-2" src="https://github.com/user-attachments/assets/5d4000f2-4f5c-4b51-9534-63211e24d2a7" />
 <img width="800" height="600" alt="project-1" src="https://github.com/user-attachments/assets/dc518556-b93a-4a1f-997e-78a13aa7be17" />
