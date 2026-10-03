@@ -17,21 +17,21 @@ const ES = {
   "hero.role": "Desarrollador Web · Soporte Técnico",
 
   "about.title":          "Sobre Mí",
-  "about.text":           "Soy estudiante de Ingeniería de Sistemas y Técnico en Programación Web en UniEspinal. Me apasiona el desarrollo full-stack, especialmente crear herramientas útiles con Laravel, PHP y bases de datos. Busco aplicar mis conocimientos en proyectos reales.",
+  "about.text":           "Hola, soy Héctor. Estudio Ingeniería de Sistemas y la técnica en Programación Web en UniEspinal. Me gusta mucho el backend con PHP y Laravel, pero también disfruto estructurar bases de datos limpias. Actualmente estoy buscando proyectos donde pueda poner a prueba lo que he aprendido.",
   "about.infoTitle":      "Información",
   "about.labelLocation":  "Ubicación",
   "about.valueLocation":  "San Luis, Tolima",
   "about.labelEmail":     "Correo",
   "about.labelLanguages": "Idiomas",
-  "about.valueLanguages": "Español (nativo) · Inglés (B1)",
+  "about.valueLanguages": "Español (Nativo) · Inglés (B1)",
   "about.labelStatus":    "Disponibilidad",
-  "about.valueStatus":    "Abierto a proyectos",
+  "about.valueStatus":    "Buscando prácticas",
   "about.interestsTitle": "Intereses",
 
   "interest.1": "CÓDIGO",
   "interest.2": "SOPORTE",
-  "interest.3": "MITOLOGÍA",
-  "interest.4": "JUEGOS",
+  "interest.3": "JUEGOS",
+  "interest.4": "MITOLOGÍA",
 
   "skills.title":        "Habilidades",
   "skills.technical":    "Habilidades técnicas",
@@ -46,29 +46,29 @@ const ES = {
   "resume.experience": "Experiencia",
 
   "edu.1.title": "Ingeniería de Sistemas",
-  "edu.1.text":  "Formación académica en desarrollo de software, bases de datos y arquitectura de sistemas computacionales.",
+  "edu.1.text":  "Aprendizaje profundo sobre arquitectura de sistemas computacionales y desarrollo de software.",
   "edu.2.title": "Técnico Profesional en Programación Web",
-  "edu.2.text":  "Desarrollo de aplicaciones web y móviles utilizando metodologías ágiles, bases de datos y frameworks modernos.",
+  "edu.2.text":  "Creación de aplicaciones web usando frameworks modernos y bases de datos relacionales.",
 
-  "exp.1.title": "Desarrollador Full-Stack (Proyecto RutaSafe)",
-  "exp.1.text":  "Desarrollé una plataforma web institucional con Laravel y PHP para el registro de rutas estáticas y reporte de incidentes.",
+  "exp.1.title": "Desarrollador Full-Stack (RutaSafe)",
+  "exp.1.text":  "Desarrollé el backend y la base de datos de una plataforma web para registrar rutas estáticas estudiantiles.",
   "exp.2.title": "Desarrollador Backend",
-  "exp.2.text":  "Configuré roles de autenticación, controladores CRUD y bases de datos usando Laravel y AdminLTE para un sistema de egresados.",
+  "exp.2.text":  "Implementé roles de seguridad y controladores CRUD para un sistema de gestión de egresados.",
 
   "portfolio.title": "Proyectos",
   "project.1.title": "RutaSafe",
-  "project.1.text":  "Laravel, PHP, MySQL",
-  "project.2.title": "Sistema Egresados",
+  "project.1.text":  "PHP, Laravel, MySQL",
+  "project.2.title": "Gestor Egresados",
   "project.2.text":  "Laravel, AdminLTE",
-  "project.3.title": "Robot Asistente",
-  "project.3.text":  "MIT App Inventor, Sensores",
+  "project.3.title": "App Asistente",
+  "project.3.text":  "MIT App Inventor",
 
   "contact.title":         "Contacto",
-  "contact.intro":         "¿Tienes un proyecto en mente o necesitas soporte técnico? Envíame un mensaje.",
+  "contact.intro":         "Si tienes alguna idea en mente o necesitas apoyo técnico, contáctame por aquí.",
   "contact.emailLabel":    "Correo",
-  "contact.linkedinValue": "Perfil en Upwork",
+  "contact.linkedinValue": "Cuenta en Upwork",
 
-  "footer.note": "Hector Manuel Barreto Chambueta · Técnico Profesional en Programación Web · UniEspinal"
+  "footer.note": "Héctor Barreto · Programación Web · UniEspinal"
 };
 
 /* ------------------------------------------------------------
@@ -85,21 +85,21 @@ const EN = {
   "hero.role": "Web Developer · Technical Support",
 
   "about.title":          "About Me",
-  "about.text":           "I am a Systems Engineering and Web Programming student at UniEspinal. Passionate about full-stack development, I build practical tools using Laravel, PHP, and databases. Currently seeking opportunities to apply my technical skills to real-world challenges.",
+  "about.text":           "Hi, I'm Héctor. I study Systems Engineering and Web Programming at UniEspinal. I really enjoy backend development with PHP and Laravel, and designing clean databases. I am currently looking for projects where I can test my skills.",
   "about.infoTitle":      "Information",
   "about.labelLocation":  "Location",
   "about.valueLocation":  "San Luis, Colombia",
   "about.labelEmail":     "Email",
   "about.labelLanguages": "Languages",
-  "about.valueLanguages": "Spanish (native) · English (B1)",
+  "about.valueLanguages": "Spanish (Native) · English (B1)",
   "about.labelStatus":    "Availability",
-  "about.valueStatus":    "Open to projects",
+  "about.valueStatus":    "Looking for internships",
   "about.interestsTitle": "Interests",
 
   "interest.1": "CODE",
   "interest.2": "SUPPORT",
-  "interest.3": "MYTHOLOGY",
-  "interest.4": "GAMING",
+  "interest.3": "GAMING",
+  "interest.4": "MYTHOLOGY",
 
   "skills.title":        "Skills",
   "skills.technical":    "Technical skills",
@@ -109,34 +109,34 @@ const EN = {
   "skill.problem":       "Problem solving",
   "skill.english":       "Technical English",
 
-  "resume.title":      "Education and experience",
+  "resume.title":      "Education and Experience",
   "resume.education":  "Education",
   "resume.experience": "Experience",
 
   "edu.1.title": "Systems Engineering",
-  "edu.1.text":  "Academic training in software development, databases, and computer systems architecture.",
+  "edu.1.text":  "Deep learning about computer systems architecture and software development.",
   "edu.2.title": "Professional Technician in Web Programming",
-  "edu.2.text":  "Building web and mobile applications using agile methodologies, databases, and modern frameworks.",
+  "edu.2.text":  "Building web applications using modern frameworks and relational databases.",
 
-  "exp.1.title": "Full-Stack Developer (RutaSafe Project)",
-  "exp.1.text":  "Built an institutional web platform using Laravel and PHP for static route registration and incident reporting.",
+  "exp.1.title": "Full-Stack Developer (RutaSafe)",
+  "exp.1.text":  "Developed the backend and database for a web platform to register static student routes.",
   "exp.2.title": "Backend Developer",
-  "exp.2.text":  "Configured authentication roles, CRUD controllers, and databases using Laravel and AdminLTE for an alumni management system.",
+  "exp.2.text":  "Implemented security roles and CRUD controllers for an alumni management system.",
 
   "portfolio.title": "Projects",
   "project.1.title": "RutaSafe",
-  "project.1.text":  "Laravel, PHP, MySQL",
-  "project.2.title": "Alumni System",
+  "project.1.text":  "PHP, Laravel, MySQL",
+  "project.2.title": "Alumni Manager",
   "project.2.text":  "Laravel, AdminLTE",
-  "project.3.title": "Assistant Robot",
-  "project.3.text":  "MIT App Inventor, Sensors",
+  "project.3.title": "Assistant App",
+  "project.3.text":  "MIT App Inventor",
 
   "contact.title":         "Contact",
-  "contact.intro":         "Do you have a project in mind or need technical support? Send me a message.",
+  "contact.intro":         "If you have an idea in mind or need technical support, contact me here.",
   "contact.emailLabel":    "Email",
-  "contact.linkedinValue": "Upwork Profile",
+  "contact.linkedinValue": "Upwork Account",
 
-  "footer.note": "Hector Manuel Barreto Chambueta · Professional Tech in Web Programming · UniEspinal"
+  "footer.note": "Héctor Barreto · Web Programming · UniEspinal"
 };
 
 /* ============================================================
