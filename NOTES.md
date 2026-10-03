@@ -1,8 +1,8 @@
 # Translation Notes
 
-**Student:** [Your name]
-**Course:** [Inglés I / Inglés II]
-**Date:** [dd/mm/yyyy]
+**Student:** [Hector Manuel Barreto Chambueta]
+**Course:** [Inglés II]
+**Date:** [01/10/2026]
 
 ---
 
@@ -31,7 +31,7 @@ This file is where you show that you understood those differences.
 Name **one thing** that appears in your Spanish version and does **not** appear
 in your English version. Explain why you removed it.
 
-> [Write 2–4 sentences in English.]
+> [When thinking about my traditional Spanish profile, I usually consider adding personal details like my exact address, marital status, or my ID number (cédula). However, I deliberately left all of that out of the English version because English resumes strictly avoid demographic data due to privacy and anti-discrimination standards. I adapted the Spanish version to match this safe, modern standard as well.]
 
 ---
 
@@ -40,7 +40,7 @@ in your English version. Explain why you removed it.
 Name **one technical term** that you kept in English in both versions.
 Explain why translating it would be a bad idea.
 
-> [Write 2–4 sentences in English.]
+> [I kept the terms **Backend** and **Full-Stack** in English in both the Spanish and English versions. Translating these terms into Spanish (for example, writing "Desarrollador de la parte trasera" or "Desarrollador de pila completa") would sound confusing and highly unprofessional. In the tech industry, these English concepts are used universally, even by native Spanish speakers.]
 
 ---
 
@@ -50,11 +50,11 @@ Name **one sentence** that was hard to write in English. Copy the Spanish
 version and your English version. Explain what you changed and why a
 word-by-word translation did not work.
 
-> Spanish: [copy your sentence here]
+> Spanish: [Spanish: Actualmente estoy buscando proyectos donde pueda poner a prueba lo que he aprendido.]
 >
-> English: [copy your sentence here]
+> English: [English: I am currently looking for projects where I can test my skills.]
 >
-> [Write 2–4 sentences in English explaining the change.]
+> [A word-by-word translation would be "where I can put to test what I have learned", which is unnecessarily long and sounds unnatural to a native speaker. I changed it to "where I can test my skills" because English professional writing favors concise, direct phrases and strong nouns rather than long descriptive clauses.]
 
 ---
 
@@ -64,19 +64,16 @@ You may use dictionaries, translators and AI tools. But you must say so here.
 
 **Which tools did you use, and for what?**
 
-> [Write your answer in English. Be specific. For example: "I used
-> Cambridge Dictionary to check the difference between *develop* and
-> *design*." Or: "I used a translator for a first version of the About
-> section, and then I rewrote it because it sounded too formal."]
+> [I used Gemini as an auditor to help me structure the HTML/JS properly and to refine my English translation. It helped me ensure that I was using strong action verbs in English (like "Developed" or "Implemented") instead of translating the Spanish nouns literally, and verified that no sensitive personal data was exposed.]
 
 ---
 
 ## Self-check before you submit
 
-- [ ] Both dictionaries in `script.js` have the same keys.
-- [ ] No `[square brackets]` are left in the page.
-- [ ] My page has no address, no phone number and no ID number.
-- [ ] The language button works in both directions.
-- [ ] All my links open the correct page.
-- [ ] I read my English text out loud and it sounds natural to me.
-- [ ] I can explain my profile in English, without reading it.
+- [x] Both dictionaries in `script.js` have the same keys.
+- [x] No `[square brackets]` are left in the page.
+- [x] My page has no address, no phone number and no ID number.
+- [x] The language button works in both directions.
+- [x] All my links open the correct page.
+- [x] I read my English text out loud and it sounds natural to me.
+- [x] I can explain my profile in English, without reading it.
