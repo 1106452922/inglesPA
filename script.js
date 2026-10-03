@@ -1,17 +1,7 @@
 /* ============================================================
    WEB PROFILE TEMPLATE - SCRIPT
    UniEspinal · Técnico Profesional en Programación Web
-
-   THIS IS THE FILE YOU WILL WORK ON THE MOST.
-
-   Below there are two dictionaries: ES and EN.
-   They have exactly the same keys, but different texts.
-
-   IMPORTANT: the English version is NOT a translation of the
-   Spanish version. A professional profile in English follows
-   different rules. Read NOTES.md before you write it.
    ============================================================ */
-
 
 /* ------------------------------------------------------------
    1. SPANISH TEXTS
@@ -27,20 +17,20 @@ const ES = {
   "hero.role": "Desarrollador Web · Soporte Técnico",
 
   "about.title":          "Sobre Mí",
-  "about.text":           "[Escribe aquí dos o tres frases sobre ti: qué estudias, qué te interesa dentro del desarrollo web y qué estás buscando ahora.]",
+  "about.text":           "Soy estudiante de Ingeniería de Sistemas y Técnico en Programación Web en UniEspinal. Me apasiona el desarrollo full-stack, especialmente crear herramientas útiles con Laravel, PHP y bases de datos. Busco aplicar mis conocimientos en proyectos reales.",
   "about.infoTitle":      "Información",
   "about.labelLocation":  "Ubicación",
-  "about.valueLocation":  "[Ciudad], Colombia",
+  "about.valueLocation":  "San Luis, Tolima",
   "about.labelEmail":     "Correo",
   "about.labelLanguages": "Idiomas",
-  "about.valueLanguages": "Español (nativo) · Inglés ([tu nivel])",
+  "about.valueLanguages": "Español (nativo) · Inglés (B1)",
   "about.labelStatus":    "Disponibilidad",
-  "about.valueStatus":    "Abierto a prácticas",
+  "about.valueStatus":    "Abierto a proyectos",
   "about.interestsTitle": "Intereses",
 
   "interest.1": "CÓDIGO",
   "interest.2": "SOPORTE",
-  "interest.3": "LECTURA",
+  "interest.3": "MITOLOGÍA",
   "interest.4": "JUEGOS",
 
   "skills.title":        "Habilidades",
@@ -55,40 +45,34 @@ const ES = {
   "resume.education":  "Formación",
   "resume.experience": "Experiencia",
 
-  "edu.1.title": "Técnico Profesional en Programación Web",
-  "edu.1.text":  "[Una o dos frases sobre lo que estás aprendiendo y qué sabes hacer ahora.]",
-  "edu.2.title": "[Curso o certificación]",
-  "edu.2.text":  "[Qué aprendiste y para qué te sirve.]",
+  "edu.1.title": "Ingeniería de Sistemas",
+  "edu.1.text":  "Formación académica en desarrollo de software, bases de datos y arquitectura de sistemas computacionales.",
+  "edu.2.title": "Técnico Profesional en Programación Web",
+  "edu.2.text":  "Desarrollo de aplicaciones web y móviles utilizando metodologías ágiles, bases de datos y frameworks modernos.",
 
-  "exp.1.title": "[Rol o tipo de proyecto]",
-  "exp.1.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
-  "exp.2.title": "[Rol o tipo de proyecto]",
-  "exp.2.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
+  "exp.1.title": "Desarrollador Full-Stack (Proyecto RutaSafe)",
+  "exp.1.text":  "Desarrollé una plataforma web institucional con Laravel y PHP para el registro de rutas estáticas y reporte de incidentes.",
+  "exp.2.title": "Desarrollador Backend",
+  "exp.2.text":  "Configuré roles de autenticación, controladores CRUD y bases de datos usando Laravel y AdminLTE para un sistema de egresados.",
 
   "portfolio.title": "Proyectos",
-  "project.1.title": "[Nombre del proyecto]",
-  "project.1.text":  "[Tecnologías usadas]",
-  "project.2.title": "[Nombre del proyecto]",
-  "project.2.text":  "[Tecnologías usadas]",
-  "project.3.title": "[Nombre del proyecto]",
-  "project.3.text":  "[Tecnologías usadas]",
+  "project.1.title": "RutaSafe",
+  "project.1.text":  "Laravel, PHP, MySQL",
+  "project.2.title": "Sistema Egresados",
+  "project.2.text":  "Laravel, AdminLTE",
+  "project.3.title": "Robot Asistente",
+  "project.3.text":  "MIT App Inventor, Sensores",
 
   "contact.title":         "Contacto",
-  "contact.intro":         "[Una frase invitando a escribirte. Por ejemplo: ¿Tienes un proyecto o una vacante? Escríbeme.]",
+  "contact.intro":         "¿Tienes un proyecto en mente o necesitas soporte técnico? Envíame un mensaje.",
   "contact.emailLabel":    "Correo",
-  "contact.linkedinValue": "[Tu perfil profesional]",
+  "contact.linkedinValue": "Perfil en Upwork",
 
-  "footer.note": "[Tu nombre] · Técnico Profesional en Programación Web · UniEspinal"
+  "footer.note": "Hector Manuel Barreto Chambueta · Técnico Profesional en Programación Web · UniEspinal"
 };
-
 
 /* ------------------------------------------------------------
    2. ENGLISH TEXTS
-
-   Before writing this section, remember:
-   - Use action verbs: built, configured, fixed, tested, supported.
-   - Do not include age, marital status or a home address.
-   - Do not translate word by word. Rewrite.
    ------------------------------------------------------------ */
 const EN = {
   "nav.home":      "HOME",
@@ -101,20 +85,20 @@ const EN = {
   "hero.role": "Web Developer · Technical Support",
 
   "about.title":          "About Me",
-  "about.text":           "[Write two or three sentences about yourself: what you study, what interests you in web development, and what you are looking for now.]",
+  "about.text":           "I am a Systems Engineering and Web Programming student at UniEspinal. Passionate about full-stack development, I build practical tools using Laravel, PHP, and databases. Currently seeking opportunities to apply my technical skills to real-world challenges.",
   "about.infoTitle":      "Information",
   "about.labelLocation":  "Location",
-  "about.valueLocation":  "[City], Colombia",
+  "about.valueLocation":  "San Luis, Colombia",
   "about.labelEmail":     "Email",
   "about.labelLanguages": "Languages",
-  "about.valueLanguages": "Spanish (native) · English ([your level])",
+  "about.valueLanguages": "Spanish (native) · English (B1)",
   "about.labelStatus":    "Availability",
-  "about.valueStatus":    "Open to internships",
+  "about.valueStatus":    "Open to projects",
   "about.interestsTitle": "Interests",
 
   "interest.1": "CODE",
   "interest.2": "SUPPORT",
-  "interest.3": "READING",
+  "interest.3": "MYTHOLOGY",
   "interest.4": "GAMING",
 
   "skills.title":        "Skills",
@@ -129,36 +113,34 @@ const EN = {
   "resume.education":  "Education",
   "resume.experience": "Experience",
 
-  "edu.1.title": "Professional Technician in Web Programming",
-  "edu.1.text":  "[One or two sentences about what you are learning and what you can do now.]",
-  "edu.2.title": "[Course or certificate]",
-  "edu.2.text":  "[What you learned and how you use it.]",
+  "edu.1.title": "Systems Engineering",
+  "edu.1.text":  "Academic training in software development, databases, and computer systems architecture.",
+  "edu.2.title": "Professional Technician in Web Programming",
+  "edu.2.text":  "Building web and mobile applications using agile methodologies, databases, and modern frameworks.",
 
-  "exp.1.title": "[Role or type of project]",
-  "exp.1.text":  "[What you did, which tools you used, and what the result was.]",
-  "exp.2.title": "[Role or type of project]",
-  "exp.2.text":  "[What you did, which tools you used, and what the result was.]",
+  "exp.1.title": "Full-Stack Developer (RutaSafe Project)",
+  "exp.1.text":  "Built an institutional web platform using Laravel and PHP for static route registration and incident reporting.",
+  "exp.2.title": "Backend Developer",
+  "exp.2.text":  "Configured authentication roles, CRUD controllers, and databases using Laravel and AdminLTE for an alumni management system.",
 
   "portfolio.title": "Projects",
-  "project.1.title": "[Project name]",
-  "project.1.text":  "[Technologies used]",
-  "project.2.title": "[Project name]",
-  "project.2.text":  "[Technologies used]",
-  "project.3.title": "[Project name]",
-  "project.3.text":  "[Technologies used]",
+  "project.1.title": "RutaSafe",
+  "project.1.text":  "Laravel, PHP, MySQL",
+  "project.2.title": "Alumni System",
+  "project.2.text":  "Laravel, AdminLTE",
+  "project.3.title": "Assistant Robot",
+  "project.3.text":  "MIT App Inventor, Sensors",
 
   "contact.title":         "Contact",
-  "contact.intro":         "[One sentence inviting people to write to you. Example: Have a project or a vacancy? Send me a message.]",
+  "contact.intro":         "Do you have a project in mind or need technical support? Send me a message.",
   "contact.emailLabel":    "Email",
-  "contact.linkedinValue": "[Your professional profile]",
+  "contact.linkedinValue": "Upwork Profile",
 
-  "footer.note": "[Your name] · Professional Technician in Web Programming · UniEspinal"
+  "footer.note": "Hector Manuel Barreto Chambueta · Professional Tech in Web Programming · UniEspinal"
 };
-
 
 /* ============================================================
    3. LANGUAGE SWITCHER
-   You do not need to change the code below.
    ============================================================ */
 
 const DICCIONARIOS = { es: ES, en: EN };
@@ -197,7 +179,6 @@ function cambiarIdioma() {
   aplicarIdioma(idiomaActual === "es" ? "en" : "es");
 }
 
-
 /* ============================================================
    4. RESPONSIVE MENU
    ============================================================ */
@@ -215,13 +196,8 @@ function cerrarMenu() {
   menuVisible = false;
 }
 
-
 /* ============================================================
    5. SKILL BARS
-
-   The width comes from the data-percent attribute in index.html.
-   You can add or remove skills freely: this code does not depend
-   on how many there are.
    ============================================================ */
 
 function animarHabilidades() {
@@ -250,7 +226,6 @@ function animarHabilidades() {
 
   barras.forEach(barra => observador.observe(barra));
 }
-
 
 /* ============================================================
    6. START
