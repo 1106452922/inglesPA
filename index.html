@@ -1,29 +1,11 @@
 <!DOCTYPE html>
-<!--
-  ============================================================
-  WEB PROFILE TEMPLATE  ·  Técnico Profesional en Programación Web
-  Institución Universitaria de El Espinal - UniEspinal
-  Inglés I / Inglés II
-  ============================================================
-
-  HOW TO USE THIS FILE
-  1. Replace every text inside [square brackets] with your own information.
-  2. Every visible text has a data-i18n attribute. The actual words live in
-     script.js, inside the ES and EN dictionaries. Edit them there.
-  3. Do NOT delete the data-i18n attributes. They connect this file to the
-     language switcher.
-  4. Never add your home address, your phone number or your ID number.
-     A public profile does not need them.
-  ============================================================
--->
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- [Replace with your name] -->
-  <title>[Hector Manuel Barreto Chambueta] · Web Developer</title>
-  <meta name="description" content="[Junior web programming student based in Colombia.]">
+  <title>Hector Manuel Barreto Chambueta · Web Developer</title>
+  <meta name="description" content="Junior web programming and systems engineering student based in Colombia.">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,8 +19,7 @@
   <div class="contenedor-header">
     <header>
       <div class="logo">
-        <!-- [Replace with your name or a short nickname] -->
-        <a href="#inicio">[Name]</a>
+        <a href="#inicio">Hector Barreto</a>
       </div>
 
       <nav id="nav">
@@ -73,19 +54,16 @@
   <section id="inicio" class="inicio">
     <div class="contenido-banner">
       <div class="contenedor-img">
-        <!-- [Replace profile.jpg with your own photo. Square image works best.] -->
         <img src="images/profile.jpg" alt="Profile photo" onerror="this.style.display='none'">
       </div>
 
-      <!-- [Replace with your full name] -->
-      <h1>[Hector Manuel Barreto Chambueta]</h1>
+      <h1>Hector Manuel Barreto Chambueta</h1>
       <h2 data-i18n="hero.role">Desarrollador Web · Soporte Técnico</h2>
 
       <div class="redes">
-        <!-- [Replace the # with your real profile links. Delete the ones you do not use.] -->
-        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="mailto:[your.email@example.com]" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/HtorMB" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.upwork.com" target="_blank" aria-label="Upwork"><i class="fa-solid fa-briefcase"></i></a>
+        <a href="mailto:barretoh577@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
       </div>
     </div>
   </section>
@@ -96,28 +74,24 @@
       <h2 data-i18n="about.title">Sobre Mí</h2>
 
       <p data-i18n="about.text">
-        [Escribe aquí dos o tres frases sobre ti.]
+        Estudiante de Ingeniería de Sistemas y Técnico Profesional en Programación Web en UniEspinal. Apasionado por el desarrollo full-stack.
       </p>
 
       <div class="fila">
         <div class="col">
           <h3 data-i18n="about.infoTitle">Información</h3>
-          <!--
-            SAFE FIELDS ONLY.
-            Do not add: home address, phone number, ID number, date of birth.
-          -->
           <ul class="datos">
             <li>
               <strong data-i18n="about.labelLocation">Ubicación</strong>
-              <span data-i18n="about.valueLocation">[San Luis], Colombia</span>
+              <span data-i18n="about.valueLocation">San Luis, Colombia</span>
             </li>
             <li>
               <strong data-i18n="about.labelEmail">Correo</strong>
-              <span>[barretoh577@gmail.com]</span>
+              <span>barretoh577@gmail.com</span>
             </li>
             <li>
               <strong data-i18n="about.labelLanguages">Idiomas</strong>
-              <span data-i18n="about.valueLanguages">Español (nativo) · Inglés ([B1)</span>
+              <span data-i18n="about.valueLanguages">Español (nativo) · Inglés (B1)</span>
             </li>
             <li>
               <strong data-i18n="about.labelStatus">Disponibilidad</strong>
@@ -129,7 +103,6 @@
         <div class="col">
           <h3 data-i18n="about.interestsTitle">Intereses</h3>
           <div class="contenedor-intereses">
-            <!-- [Change icons and labels. Keep between 4 and 6.] -->
             <div class="interes">
               <i class="fa-solid fa-code"></i>
               <span data-i18n="interest.1">CÓDIGO</span>
@@ -140,7 +113,7 @@
             </div>
             <div class="interes">
               <i class="fa-solid fa-book-open"></i>
-              <span data-i18n="interest.3">LECTURA</span>
+              <span data-i18n="interest.3">MITOLOGÍA</span>
             </div>
             <div class="interes">
               <i class="fa-solid fa-gamepad"></i>
@@ -153,11 +126,6 @@
   </section>
 
   <!-- ========================= SKILLS ========================= -->
-  <!--
-    To change a skill: edit the label, and edit data-percent.
-    The bar width and the number are both taken from data-percent,
-    so you only change it in ONE place.
-  -->
   <section id="skills" class="skills">
     <div class="contenido-seccion">
       <h2 data-i18n="skills.title">Habilidades</h2>
@@ -167,20 +135,20 @@
           <h3 data-i18n="skills.technical">Habilidades técnicas</h3>
 
           <div class="skill">
-            <span class="skill-nombre">HTML &amp; CSS</span>
+            <span class="skill-nombre">HTML, CSS & Tailwind</span>
+            <div class="barra-skill"><div class="progreso" data-percent="80"><span>80%</span></div></div>
+          </div>
+          <div class="skill">
+            <span class="skill-nombre">PHP & Laravel</span>
+            <div class="barra-skill"><div class="progreso" data-percent="75"><span>75%</span></div></div>
+          </div>
+          <div class="skill">
+            <span class="skill-nombre">MySQL & MariaDB</span>
             <div class="barra-skill"><div class="progreso" data-percent="70"><span>70%</span></div></div>
           </div>
           <div class="skill">
-            <span class="skill-nombre">JavaScript</span>
-            <div class="barra-skill"><div class="progreso" data-percent="55"><span>55%</span></div></div>
-          </div>
-          <div class="skill">
-            <span class="skill-nombre">MySQL</span>
-            <div class="barra-skill"><div class="progreso" data-percent="45"><span>45%</span></div></div>
-          </div>
-          <div class="skill">
-            <span class="skill-nombre">Git &amp; GitHub</span>
-            <div class="barra-skill"><div class="progreso" data-percent="60"><span>60%</span></div></div>
+            <span class="skill-nombre">Git & GitHub</span>
+            <div class="barra-skill"><div class="progreso" data-percent="65"><span>65%</span></div></div>
           </div>
         </div>
 
@@ -197,7 +165,7 @@
           </div>
           <div class="skill">
             <span class="skill-nombre" data-i18n="skill.problem">Resolución de problemas</span>
-            <div class="barra-skill"><div class="progreso" data-percent="75"><span>75%</span></div></div>
+            <div class="barra-skill"><div class="progreso" data-percent="80"><span>80%</span></div></div>
           </div>
           <div class="skill">
             <span class="skill-nombre" data-i18n="skill.english">Inglés técnico</span>
@@ -214,49 +182,42 @@
       <h2 data-i18n="resume.title">Formación y experiencia</h2>
 
       <div class="fila">
-        <!-- EDUCATION -->
         <div class="col izquierda">
           <h3 data-i18n="resume.education">Formación</h3>
 
           <div class="item izq">
-            <h4 data-i18n="edu.1.title">Técnico Profesional en Programación Web</h4>
+            <h4 data-i18n="edu.1.title">Ingeniería de Sistemas</h4>
             <span class="casa">UniEspinal</span>
-            <span class="fecha">[2025 - 2027]</span>
-            <p data-i18n="edu.1.text">[Una o dos frases sobre lo que aprendes aquí.]</p>
+            <span class="fecha">Actualidad</span>
+            <p data-i18n="edu.1.text">Formación integral en desarrollo de software, bases de datos y arquitectura de sistemas.</p>
             <div class="conectori"><div class="circuloi"></div></div>
           </div>
 
           <div class="item izq">
-            <h4 data-i18n="edu.2.title">[Curso o certificación]</h4>
-            <span class="casa">[Institución]</span>
-            <span class="fecha">[Año]</span>
-            <p data-i18n="edu.2.text">[Qué aprendiste y para qué te sirve.]</p>
+            <h4 data-i18n="edu.2.title">Técnico Profesional en Programación Web</h4>
+            <span class="casa">UniEspinal</span>
+            <span class="fecha">2024 - 2026</span>
+            <p data-i18n="edu.2.text">Desarrollo de aplicaciones web utilizando metodologías ágiles y frameworks modernos.</p>
             <div class="conectori"><div class="circuloi"></div></div>
           </div>
         </div>
 
-        <!-- EXPERIENCE -->
         <div class="col derecha">
           <h3 data-i18n="resume.experience">Experiencia</h3>
 
-          <!--
-            No work experience yet? That is normal.
-            Use academic projects, volunteer work or freelance jobs.
-            Describe what you DID, using action verbs: built, configured, fixed, tested.
-          -->
           <div class="item der">
-            <h4 data-i18n="exp.1.title">[Rol o tipo de proyecto]</h4>
-            <span class="casa">[Empresa, institución o proyecto propio]</span>
-            <span class="fecha">[Año]</span>
-            <p data-i18n="exp.1.text">[Qué hiciste, con qué herramientas y qué resultado tuvo.]</p>
+            <h4 data-i18n="exp.1.title">Desarrollador Full-Stack (Proyecto Académico)</h4>
+            <span class="casa">UniEspinal - Proyecto RutaSafe</span>
+            <span class="fecha">2026</span>
+            <p data-i18n="exp.1.text">Desarrollo de plataforma para registro de rutas estáticas y reporte de incidentes usando Laravel y PHP.</p>
             <div class="conectord"><div class="circulod"></div></div>
           </div>
 
           <div class="item der">
-            <h4 data-i18n="exp.2.title">[Rol o tipo de proyecto]</h4>
-            <span class="casa">[Empresa, institución o proyecto propio]</span>
-            <span class="fecha">[Año]</span>
-            <p data-i18n="exp.2.text">[Qué hiciste, con qué herramientas y qué resultado tuvo.]</p>
+            <h4 data-i18n="exp.2.title">Desarrollador Backend</h4>
+            <span class="casa">Sistema de Gestión de Egresados</span>
+            <span class="fecha">2026</span>
+            <p data-i18n="exp.2.text">Configuración de bases de datos, controladores CRUD y roles de autenticación usando Laravel y AdminLTE.</p>
             <div class="conectord"><div class="circulod"></div></div>
           </div>
         </div>
@@ -265,37 +226,32 @@
   </section>
 
   <!-- ========================= PORTFOLIO ========================= -->
-  <!--
-    This is the most important section for a junior developer.
-    Three finished small projects are better than ten unfinished ones.
-    Every card should link to the live project or to its repository.
-  -->
   <section id="portfolio" class="portfolio">
     <div class="contenido-seccion">
       <h2 data-i18n="portfolio.title">Proyectos</h2>
 
       <div class="galeria">
-        <a class="proyecto" href="#" target="_blank" rel="noopener">
-          <img src="images/project-1.png" alt="Project 1" onerror="this.style.opacity=0">
+        <a class="proyecto" href="https://github.com/HtorMB" target="_blank" rel="noopener">
+          <img src="images/project-1.png" alt="RutaSafe Project" onerror="this.style.opacity=0">
           <div class="overlay">
-            <h3 data-i18n="project.1.title">[Nombre del proyecto]</h3>
-            <p data-i18n="project.1.text">[Tecnologías usadas]</p>
+            <h3 data-i18n="project.1.title">RutaSafe</h3>
+            <p data-i18n="project.1.text">Laravel, PHP, MySQL</p>
           </div>
         </a>
 
-        <a class="proyecto" href="#" target="_blank" rel="noopener">
-          <img src="images/project-2.png" alt="Project 2" onerror="this.style.opacity=0">
+        <a class="proyecto" href="https://github.com/HtorMB" target="_blank" rel="noopener">
+          <img src="images/project-2.png" alt="Sistema Egresados" onerror="this.style.opacity=0">
           <div class="overlay">
-            <h3 data-i18n="project.2.title">[Nombre del proyecto]</h3>
-            <p data-i18n="project.2.text">[Tecnologías usadas]</p>
+            <h3 data-i18n="project.2.title">Sistema Egresados</h3>
+            <p data-i18n="project.2.text">Laravel, AdminLTE, Spatie</p>
           </div>
         </a>
 
-        <a class="proyecto" href="#" target="_blank" rel="noopener">
-          <img src="images/project-3.png" alt="Project 3" onerror="this.style.opacity=0">
+        <a class="proyecto" href="https://github.com/HtorMB" target="_blank" rel="noopener">
+          <img src="images/project-3.png" alt="Robot Asistente" onerror="this.style.opacity=0">
           <div class="overlay">
-            <h3 data-i18n="project.3.title">[Nombre del proyecto]</h3>
-            <p data-i18n="project.3.text">[Tecnologías usadas]</p>
+            <h3 data-i18n="project.3.title">Robot Asistente Móvil</h3>
+            <p data-i18n="project.3.text">MIT App Inventor, Sensores</p>
           </div>
         </a>
       </div>
@@ -303,34 +259,30 @@
   </section>
 
   <!-- ========================= CONTACT ========================= -->
-  <!--
-    A contact form needs a server to work. This template uses direct links
-    instead, so nothing here is decorative: every button really does something.
-  -->
   <section id="contacto" class="contacto">
     <div class="contenido-seccion">
       <h2 data-i18n="contact.title">Contacto</h2>
       <p class="contacto-intro" data-i18n="contact.intro">
-        [Una frase invitando a escribirte.]
+        ¿Tienes un proyecto en mente o necesitas soporte técnico? Envíame un mensaje.
       </p>
 
       <div class="tarjetas-contacto">
-        <a class="tarjeta" href="mailto:[your.email@example.com]">
+        <a class="tarjeta" href="mailto:barretoh577@gmail.com">
           <i class="fa-solid fa-envelope"></i>
           <strong data-i18n="contact.emailLabel">Correo</strong>
-          <span>[your.email@example.com]</span>
+          <span>barretoh577@gmail.com</span>
         </a>
 
-        <a class="tarjeta" href="#" target="_blank" rel="noopener">
+        <a class="tarjeta" href="https://github.com/HtorMB" target="_blank" rel="noopener">
           <i class="fa-brands fa-github"></i>
           <strong>GitHub</strong>
-          <span>[github.com/tu-usuario]</span>
+          <span>github.com/HtorMB</span>
         </a>
 
-        <a class="tarjeta" href="#" target="_blank" rel="noopener">
-          <i class="fa-brands fa-linkedin-in"></i>
-          <strong>LinkedIn</strong>
-          <span data-i18n="contact.linkedinValue">[Tu perfil profesional]</span>
+        <a class="tarjeta" href="https://www.upwork.com" target="_blank" rel="noopener">
+          <i class="fa-solid fa-briefcase"></i>
+          <strong>Freelance</strong>
+          <span data-i18n="contact.linkedinValue">Perfil en Upwork</span>
         </a>
       </div>
     </div>
@@ -342,7 +294,7 @@
       <i class="fa-solid fa-angles-up"></i>
     </a>
     <p class="footer-nota" data-i18n="footer.note">
-      [Tu nombre] · Técnico Profesional en Programación Web · UniEspinal
+      Hector Manuel Barreto Chambueta · Técnico Profesional en Programación Web · UniEspinal
     </p>
   </footer>
 
