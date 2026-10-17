@@ -1,8 +1,8 @@
 # Translation Notes
 
-**Student:** [Hector Manuel Barreto Chambueta]
-**Course:** [Inglés II]
-**Date:** [01/10/2026]
+**Student:** Hector Manuel Barreto Chambueta
+**Course:** Inglés II
+**Date:** 16/10/2026
 
 ---
 
@@ -31,7 +31,7 @@ This file is where you show that you understood those differences.
 Name **one thing** that appears in your Spanish version and does **not** appear
 in your English version. Explain why you removed it.
 
-> [When thinking about my traditional Spanish profile, I usually consider adding personal details like my exact address, marital status, or my ID number (cédula). However, I deliberately left all of that out of the English version because English resumes strictly avoid demographic data due to privacy and anti-discrimination standards. I adapted the Spanish version to match this safe, modern standard as well.]
+> When preparing a traditional Colombian CV in Spanish, it is normal to include personal data such as my ID number (cédula), birth date, or exact home address. I removed all of those details from my English profile (and kept my Spanish web version equally clean) because international resumes strictly avoid personal demographic information to prevent discrimination and protect privacy online.
 
 ---
 
@@ -40,7 +40,7 @@ in your English version. Explain why you removed it.
 Name **one technical term** that you kept in English in both versions.
 Explain why translating it would be a bad idea.
 
-> [I kept the terms **Backend** and **Full-Stack** in English in both the Spanish and English versions. Translating these terms into Spanish (for example, writing "Desarrollador de la parte trasera" or "Desarrollador de pila completa") would sound confusing and highly unprofessional. In the tech industry, these English concepts are used universally, even by native Spanish speakers.]
+> I kept the terms **Backend** and **Full-Stack** in English in both versions. Translating them into Spanish (such as writing "desarrollador de la parte trasera" or "pila completa") sounds unnatural and confusing. In the software industry across Latin America, developers and recruiters always use the original English terms.
 
 ---
 
@@ -50,11 +50,11 @@ Name **one sentence** that was hard to write in English. Copy the Spanish
 version and your English version. Explain what you changed and why a
 word-by-word translation did not work.
 
-> Spanish: [Spanish: Actualmente estoy buscando proyectos donde pueda poner a prueba lo que he aprendido.]
+> Spanish: Actualmente estoy buscando proyectos donde pueda poner a prueba lo que he aprendido.
 >
-> English: [English: I am currently looking for projects where I can test my skills.]
+> English: I am currently looking for projects where I can test my skills.
 >
-> [A word-by-word translation would be "where I can put to test what I have learned", which is unnecessarily long and sounds unnatural to a native speaker. I changed it to "where I can test my skills" because English professional writing favors concise, direct phrases and strong nouns rather than long descriptive clauses.]
+> A literal word-by-word translation would be "where I can put to test what I have learned", which sounds heavy and unnatural in English. I rewrote it as "where I can test my skills" because English professional profiles prefer short, direct clauses instead of long expressions.
 
 ---
 
@@ -64,7 +64,7 @@ You may use dictionaries, translators and AI tools. But you must say so here.
 
 **Which tools did you use, and for what?**
 
-> [I used Gemini as an auditor to help me structure the HTML/JS properly and to refine my English translation. It helped me ensure that I was using strong action verbs in English (like "Developed" or "Implemented") instead of translating the Spanish nouns literally, and verified that no sensitive personal data was exposed.]
+> I used **Gemini** (an AI tool) to audit my HTML and JavaScript keys, verify that no text remained in Spanish when switching to English, and check my grammar in the Resume section so that I used the present perfect ("I have developed", "I have built") and past action verbs properly.
 
 ---
 
